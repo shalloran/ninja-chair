@@ -1,6 +1,6 @@
 # NinjaChair
 
-Kids’ drawings of a chair that’s a ninja. Live site: [ninjachair.com](https://ninjachair.com).
+Welcome to ninja chair, more to come. Live site: [ninjachair.com](https://ninjachair.com).
 
 Static site in `website/`, served by GitHub Pages (same idea as [LOLVPN](https://github.com/shalloran/LOLVPN)).
 
