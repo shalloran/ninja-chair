@@ -1,0 +1,20 @@
+[
+  {
+    "id": "worst-xmas-ever",
+    "title": "Worst Day Ever of Christmas",
+    "blurb": "mini graphic novel · 8 pages",
+    "cover": "assets/stories/worst-xmas-ever/01.jpeg",
+    "href": "stories/worst-xmas-ever/",
+    "added": "2026-09-28",
+    "pages": [
+      "assets/stories/worst-xmas-ever/01.jpeg",
+      "assets/stories/worst-xmas-ever/02.jpeg",
+      "assets/stories/worst-xmas-ever/03.jpeg",
+      "assets/stories/worst-xmas-ever/04.jpeg",
+      "assets/stories/worst-xmas-ever/05.jpeg",
+      "assets/stories/worst-xmas-ever/06.jpeg",
+      "assets/stories/worst-xmas-ever/07.jpeg",
+      "assets/stories/worst-xmas-ever/08.jpeg"
+    ]
+  }
+]

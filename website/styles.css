@@ -195,18 +195,26 @@ a:hover {
 }
 
 .tile {
+  display: block;
   margin: 0;
   border: 3px solid var(--ink);
   background: #fffdf8;
   padding: 0.6rem;
+  color: inherit;
+  text-decoration: none;
   cursor: pointer;
   transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.tile figure {
+  margin: 0;
 }
 
 .tile:hover,
 .tile:focus-within {
   transform: translateY(-4px) rotate(-1deg);
   box-shadow: 4px 6px 0 var(--night-teal);
+  color: inherit;
 }
 
 .tile img {
@@ -217,15 +225,85 @@ a:hover {
   background: var(--paper);
 }
 
+.tile-story img {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
 .tile figcaption {
   margin-top: 0.55rem;
   font-weight: 700;
   font-family: var(--font-display);
 }
 
+.tile-title {
+  display: block;
+}
+
+.tile-blurb {
+  display: block;
+  margin-top: 0.2rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--night-teal);
+}
+
 .gallery-error {
   color: var(--dojo-red);
   font-weight: 700;
+}
+
+.story-reader {
+  padding: 1.5rem 0 4rem;
+  max-width: 40rem;
+}
+
+.story-back {
+  margin: 0 0 1rem;
+  font-weight: 700;
+}
+
+.story-back a {
+  text-decoration: none;
+}
+
+.story-reader h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin: 0 0 0.35rem;
+}
+
+.story-blurb {
+  margin: 0 0 1.75rem;
+  font-weight: 600;
+  color: var(--night-teal);
+}
+
+.story-pages {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.story-page {
+  margin: 0;
+  border: 3px solid var(--ink);
+  background: #fffdf8;
+  padding: 0.5rem;
+}
+
+.story-page img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.story-page figcaption {
+  margin-top: 0.45rem;
+  text-align: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
 }
 
 .about-main {

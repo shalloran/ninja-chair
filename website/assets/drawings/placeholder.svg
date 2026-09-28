@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="First Strike placeholder">
-  <rect width="640" height="480" fill="#F7F0E4"/>
-  <rect x="220" y="160" width="200" height="160" rx="12" fill="#0D4F5C"/>
-  <rect x="250" y="110" width="140" height="60" rx="8" fill="#1A1510"/>
-  <circle cx="290" cy="220" r="12" fill="#F7F0E4"/>
-  <circle cx="350" cy="220" r="12" fill="#F7F0E4"/>
-  <text x="320" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#C62828">placeholder drawing</text>
-</svg>
