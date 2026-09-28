@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="NinjaChair">
+  <rect x="8" y="28" width="36" height="28" rx="4" fill="#C62828"/>
+  <rect x="14" y="18" width="24" height="12" rx="3" fill="#1A1510"/>
+  <circle cx="20" cy="40" r="3" fill="#F7F0E4"/>
+  <circle cx="32" cy="40" r="3" fill="#F7F0E4"/>
+  <text x="56" y="54" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#1A1510">NinjaChair</text>
+</svg>

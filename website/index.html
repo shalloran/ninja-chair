@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-site-title>NinjaChair</title>
+    <meta
+      name="description"
+      content="Drawings of a chair that's a ninja. Curated kids' art gallery."
+    />
+    <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-asset-base="">
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap nav">
+        <a class="nav-brand" href="./">NinjaChair</a>
+        <ul class="nav-links">
+          <li><a href="./">Home</a></li>
+          <li><a href="about/">About</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="wrap brand-hero" aria-label="NinjaChair">
+        <img
+          class="logo"
+          src="assets/brand/logo.svg"
+          width="320"
+          height="80"
+          alt="NinjaChair"
+        />
+        <img
+          class="seal"
+          src="assets/brand/seal.svg"
+          width="120"
+          height="120"
+          alt=""
+        />
+        <h1>NinjaChair</h1>
+        <p class="tagline" data-site="tagline">
+          drawings of a chair that's a ninja
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#gallery-section">See the gallery</a>
+          <a class="btn btn-ghost" href="about/">About</a>
+        </div>
+      </section>
+
+      <section id="gallery-section" class="wrap gallery-section">
+        <h2>Gallery</h2>
+        <p id="gallery-error" class="gallery-error" hidden></p>
+        <div id="gallery" class="gallery"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          <span data-site="siteName">NinjaChair</span>
+          ·
+          <a data-mailto data-mailto-label href="mailto:hi@ninjachair.com"
+            >hi@ninjachair.com</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <div
+      id="lightbox"
+      class="lightbox"
+      aria-hidden="true"
+      role="dialog"
+      aria-label="Drawing"
+    >
+      <div class="lightbox-panel">
+        <button type="button" class="lightbox-close" aria-label="Close">
+          Close
+        </button>
+        <img src="" alt="" />
+        <p data-lightbox-title></p>
+      </div>
+    </div>
+
+    <script src="site-config.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
